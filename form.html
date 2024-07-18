@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <div>
+        <h1>Travel form for our trip</h1>
+        <form action="form.php">
+            <label for="name">
+                <input type="text" placeholder="Enter your name">
+            </label>
+            <br>
+            <label for="sectionida">
+                <input type="radio" value="section a" name="section" id="sectionida"> Section A
+            </label>
+            <label for="sectionidb">
+                <input type="radio" value="Section b" name="section" id="sectionidb"> Section B
+            </label>
+            <label for="sectionidc">
+                <input type="radio" value="Section c" name="section" id="sectionidc"> Section C
+            </label>
+            <br>
+            <label for="foodcanteen">
+                <input type="checkbox" name="Want food canteen card" id="foodcanteen" class="Red"> Want foodcanteen card
+            </label>
+            <br>
+            <label for="Mailid">
+                <input type="email" name="Enter your email" id="mailid" class="Blue">Enter your email
+            </label>
+            <br>
+            <label for="Dob">
+                <input type="date" name="Enter your date of birth" id="Dob" class="pink"> Enter your date of birth
+            </label>
+            <br>
+            <label for="button">
+                <input type="button" value="Submit" name="Submit" id="button">
+            </label>
+            <textarea name="explain" id="explain" cols="30" rows="10" placeholder="Explain Yourself"></textarea>
+            <br>
+            <select name="Car" id="Car">
+                <option value="no car">Select your car</option>
+                <option value="omni">omni1</option>
+                <option value="omni">omni2</option>
+                <option value="omni">omni3</option>
+            </select>
+        </form>
+    </div>
+</body>
+
+</html>

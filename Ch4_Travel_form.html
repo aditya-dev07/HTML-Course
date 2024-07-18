@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency Booking Form</title>
+</head>
+
+<body>
+    <div>
+        <h1>
+            <center>Travel Agency Booking Form</center>
+        </h1>
+        <hr>
+        <h2>Travelor information</h2>
+        <form action="submit_destination.php">
+            <label for="text">Enter Your name </label> <br>
+                <input type="text" name="Enter Your name" id="text" placeholder="first name">
+                <input type="text" placeholder="Last Name">
+                <br>
+                <br>
+           
+            <label for="date">Date of birth </label> <br>
+                <input type="date" name="Date" id="Date" required>
+                <br>
+                <br>
+            <label for="phone">Phone No.</label> <br>
+                <input type="tel" name="Phone" id="phone" required>
+                <br>
+                <br>
+                <label for="email">Email Id</label><br>
+                <input type="email" name="Email Id" id="email">
+                <br>
+                <br>
+                <label for="Address">Enter your Full Address</label><br>
+                <textarea name="Address" id="Address" cols="30" rows="10" placeholder="Enter Your address"></textarea>
+                <br>
+                <br>
+                <label for="Destination">Destination</label>
+                <select name="Destination" id="Destination" required>
+                    <option value="Lucknow">Lucknow</option>
+                    <option value="Kanpur">Kanpur</option>
+                    <option value="Delhi">Delhi</option>
+                </select> 
+                <br>
+                <br>
+                <label for="Departure-date">Departure Date</label><br>
+                <input type="date" name="Departure-date" id="Departure-date">
+                <br>
+                <br>
+                <label for="Return">Return Date</label><br>
+                <input type="date" name="return" id="return">
+                <br>
+                <br>
+                <label for="comments">Additional Comments</label><br>
+                <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Comments"></textarea>
+                <br>
+                <input type="submit" value="Submit">
+
+
+        </form>
+    </div>
+</body>
+
+</html>
